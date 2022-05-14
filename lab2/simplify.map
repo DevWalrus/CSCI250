@@ -1,0 +1,46 @@
+Load map
+Module entry point: 0x00400274
+
+Module:  simplify.obj
+ Text segment:  624 bytes, load point 0x00400000
+ Data segment:  248 bytes, load point 0x10000000
+ Symbols:
+                   Name Section Mode    Value
+          set_denom_one   Text   R   0x00400174
+                   main   Text   RG  0x00400000
+   set_returns_simplify   Text   R   0x00400180
+       subtraction_loop   Text   R   0x00400134
+             den_string   Data   R   0x100000a2
+         set_num_2_to_d   Text   R   0x00400210
+         gcd_while_done   Text   R   0x00400218
+      positive_num_done   Text   R   0x00400214
+            ask_for_num   Text   R   0x00400020
+               READ_INT          A   0x00000005
+               find_gcd   Text   R   0x004001bc
+             res_string   Data   R   0x100000cb
+           print_number   Text   R   0x00400248
+           PRINT_STRING          A   0x00000004
+          simplify_done   Text   R   0x00400190
+               den_good   Text   R   0x00400080
+               into_msg   Data   R   0x10000000
+           print_string   Text   R   0x00400264
+                newline   Data   R   0x10000051
+             num_string   Data   R   0x1000007b
+             and_string   Data   R   0x100000e9
+             div_string   Data   R   0x100000ef
+         gcd_while_loop   Text   R   0x004001ec
+  subtraction_loop_done   Text   R   0x00400148
+            ask_for_den   Text   R   0x00400050
+           positive_num   Text   R   0x00400200
+          find_gcd_done   Text   R   0x0040021c
+              PRINT_INT          A   0x00000001
+            set_num_one   Text   R   0x0040017c
+            input_error   Data   R   0x10000053
+               simplify   Text   R   0x00400100
+
+Module:  r2k_startup.obj
+ Text segment:  36 bytes, load point 0x00400270
+ Symbols:
+                   Name Section Mode    Value
+              SYS_EXIT2          A   0x00000011
+         __r2k__entry__   Text   RG  0x00400274

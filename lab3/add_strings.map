@@ -1,0 +1,62 @@
+Load map
+Module entry point: 0x004001c0
+
+Module:  add_strings.obj
+ Text segment:  240 bytes, load point 0x00400000
+ Data segment:  352 bytes, load point 0x10000000
+ Symbols:
+               Name Section Mode    Value
+               main   Text   RG  0x00400000
+           problem1   Data   R   0x100000d4
+           READ_INT          A   0x00000005
+         do_problem   Text   R   0x00400074
+             out_a2   Data   R   0x10000050
+       DO_FRAMESIZE          A   0x00000010
+       PRINT_STRING          A   0x00000004
+             out_b2   Data   R   0x1000008a
+        M_FRAMESIZE          A   0x00000008
+             buf_a2   Data   R   0x10000061
+          problem1a   Data   R   0x100000e8
+          problem1b   Data   R   0x100000fc
+          problem1c   Data   R   0x10000110
+             buf_b2   Data   R   0x1000009b
+             str_a1   Data   R   0x10000000
+             str_a2   Data   R   0x10000002
+             str_a3   Data   R   0x10000004
+             str_a4   Data   R   0x10000009
+             str_a5   Data   R   0x1000000e
+             str_a6   Data   R   0x10000013
+              out_a   Data   R   0x10000039
+              out_b   Data   R   0x1000006a
+          PRINT_INT          A   0x00000001
+              buf_a   Data   R   0x1000004a
+              buf_b   Data   R   0x1000007b
+          problem2a   Data   R   0x10000124
+          problem2b   Data   R   0x10000138
+          problem2c   Data   R   0x1000014c
+             str_b1   Data   R   0x10000018
+             str_b2   Data   R   0x10000023
+             str_b3   Data   R   0x1000002e
+            result1   Data   R   0x100000aa
+            result2   Data   R   0x100000bc
+            result3   Data   R   0x100000d0
+
+Module:  add_ascii_numbers.obj
+ Text segment:  204 bytes, load point 0x004000f0
+ Data segment:  8 bytes, load point 0x10000160
+ Symbols:
+               Name Section Mode    Value
+  add_ascii_numbers   Text   RG  0x004000f0
+       str_ele_loop   Text   R   0x00400134
+        A_FRAMESIZE          A   0x00000028
+            newline   Data   R   0x10000160
+         save_digit   Text   R   0x0040017c
+               done   Text   R   0x00400190
+         create_sum   Text   R   0x00400168
+
+Module:  r2k_startup.obj
+ Text segment:  36 bytes, load point 0x004001bc
+ Symbols:
+               Name Section Mode    Value
+          SYS_EXIT2          A   0x00000011
+     __r2k__entry__   Text   RG  0x004001c0

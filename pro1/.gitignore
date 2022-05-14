@@ -1,0 +1,8 @@
+*.lst
+*.obj
+*.out
+*.map
+*.swp
+inputs/*
+outputs/*
+Mafefile
